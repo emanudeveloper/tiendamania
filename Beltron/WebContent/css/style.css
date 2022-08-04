@@ -1,0 +1,111 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* footer.page-footer { */
+/*   margin: 0; */
+/* } */
+.parallax-beltron{
+	outline: 1px solid teal;
+	height: 40em;
+}
+.login-container{
+	padding: 10em 0 0 0;
+}
+.login-beltron-title{
+	font-size: 32px;
+	font-weight: 700;
+}
+.login-betron{
+	border-radius: 10px;
+	padding: 30px 20px;
+	box-shadow: 0 0 5px;
+}
+.admin-panel{
+	height: 100vh;
+}
+.admin-panel-sub {
+}
+.admin-panel-sub-left{
+}
+
+.login-modal{
+	display: none;
+	padding: 3px 10px;
+	font-size: 13px;
+	color: black;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+	width: 25%;
+	z-index: 10000;
+}
+.login-modal::before{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	transform: rotate(45deg);
+	top: -10px;
+	left: 15px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+	background-color: white;
+}
+.login-modal::after{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 35px;
+	top: 0;
+	left: 8px;
+	background-color: white;
+}
+
+.modal-loagin:hover > .login-modal{
+	display: block;
+}
+
+
+
